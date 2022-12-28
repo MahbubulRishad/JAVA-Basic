@@ -26,5 +26,9 @@ public class ForEachLoopTest {
             System.out.println("Amount is: " + am);
         }
 
+        for (int i=0;i<amount.length;i++){
+            System.out.println(amount[i]);
+        }
+
     }
 }
