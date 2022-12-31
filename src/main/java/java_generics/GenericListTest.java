@@ -16,7 +16,7 @@ public class GenericListTest {
 
         integerList.remove(2);
 
-        integerList.add(144);
+        integerList.add(1, 144);
 
         for (Integer integer : integerList) {
             System.out.println(integer);
